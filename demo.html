@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Slider</title>
+		<link rel="stylesheet" type="text/css" href="style/slider.css" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+		<script type="text/javascript" src="js/slider.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="captions">
+				<div class="caption" name="c0"><p>Energias Renovables</p></div>
+				<div class="caption" name="c1"><p>Energia Eolica</p></div>
+				<div id="buttons">
+					<div id="left" value="left" onClick="show_previous()"></div>
+					<div id="rigth" value="rigth" onClick="show_next()"></div>
+				</div>
+			</div>
+			<div class="slider">
+				<div class="slide" name="0" style="background-image:url(images/eolic.jpg)"></div>
+				<div class="slide" name="1" style="background-image:url(images/eolic2.jpg)"></div>
+			</div>
+		</div>
+	</body>
+</html>
